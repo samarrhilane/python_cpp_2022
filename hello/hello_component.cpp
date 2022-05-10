@@ -25,3 +25,19 @@ PYBIND11_MODULE(hello_component,greetings)
   greetings.def("Hello_IF", &Hello_IF, "a function saying hi Miage IF");
   greetings.def("getVersion", &getVersion, "a function returning the version");
 }
+
+class Animal {
+public:
+    virtual ~Animal() { }
+    virtual std::string go(int n_times) = 0;
+};
+
+class Dog : public Animal {
+public:
+    std::string go(int n_times) override {
+        std::string result;
+        for (int i=0; i<n_times; ++i)
+            result += "woof! ";
+        return result;
+    }
+};
