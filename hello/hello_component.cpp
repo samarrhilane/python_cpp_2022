@@ -16,6 +16,7 @@ class Himiage
 	 ~Himiage() { }
 	 char const* Hello_IF() {
  	 return "Hi, Miage IF";
+	 }
 }
 
 namespace py = pybind11;
