@@ -13,7 +13,7 @@ std::string greet() {
 class Himiage 
 {
      public:
-	 //~Himiage() { }
+	 ~Himiage() { }
 	 std::string Hello_IF() {
  	 return "Hi, Miage IF";
 	 }
