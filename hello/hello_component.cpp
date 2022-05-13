@@ -33,7 +33,7 @@ PYBIND11_MODULE(hello_component,greetings)
   greetings.def("getVersion", &getVersion, "a function returning the version");
 	
   py::class_<Himiage>(greetings, "Himiage")
-	.def(py::init<>())
+	.def(py::init<std::string>())
 	.def("Hello_IF", &Himiage::Hello_IF);
 }
 
