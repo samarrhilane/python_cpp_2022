@@ -14,7 +14,7 @@ class Himiage
 {
      public:
 	 ~Himiage() { }
-	 char const* Hello_IF() {
+	 std::string Hello_IF() {
  	 return "Hi, Miage IF";
 	 }
 };
