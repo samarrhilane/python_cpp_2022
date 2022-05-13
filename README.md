@@ -39,7 +39,7 @@ a
 
 
 
-# 3 - Use 
+# 3 - Use : Test hello_component with python
 ```
 python3
 >>> import hello_component
@@ -50,6 +50,7 @@ python3
 >>> 
 ```
 
-![hello](https://user-images.githubusercontent.com/29365707/167022802-186f32f4-170f-4724-807d-235180027c69.png)
+![hello_if](https://user-images.githubusercontent.com/29365707/168342254-bac012ae-2d26-4a45-9a38-70375ee2dcbd.png)
+
 
 
